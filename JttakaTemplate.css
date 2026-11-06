@@ -1,0 +1,49 @@
+/**
+ * @name Template
+ * @author Jttaka
+ * @version 0.0.1
+ * @description A template for a discord theme.
+ * @source https://github.com/jttaka/Discord-Theme-Template/tree/main/src/
+ * @invite 2Jwh2nS
+*/
+@import url('https://github.com/jttaka/Discord-Theme-Template/raw/main/src/JttakaTemplate.css');
+
+.theme-dark {
+  --dplus-backdrop: linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.4)), url('');
+  /* Image or color for the backdrop. Defaults to accent color on error. */
+  
+  --dplus-accent-color-hue: 352;
+  --dplus-accent-color-saturation: 75%;
+  --dplus-accent-color-lightness: 42%;
+  /* Accent colors accentuate foreground elements. */
+  /* https://hslpicker.com */
+
+  --dplus-foreground-color-hue-base: 215;
+  --dplus-foreground-color-hue-links: 190;
+  --dplus-foreground-color-saturation-amount: 1;
+  --dplus-foreground-color-lightness-amount: 1.1;
+  /* These determine the color of foreground elements. */
+  /*
+  * NOTE: "Amount" is an offset, where 1.0 is normal, and 0.5 is reduced by 50%.
+  * An example: If an element has a base lightness of 0.45,
+  * setting --dplus-foreground-color-lightness-amount to 0.8
+  * results in the element getting a final lightness of 0.25.
+  * While your offsets can be any number, the final values will always be between 0 and 1. */
+  
+  --dplus-background-color-hue: 350;
+  --dplus-background-color-saturation-amount: 0.6;
+  --dplus-background-color-lightness-amount: 0.8;
+  --dplus-background-color-alpha: 0.4;
+  /* This determines the color and opacity of surfaces. */
+  /* If the foreground is hard to read, try adjusting these values. */
+}
+
+.dplus-backdrop,
+[class*="bg-"],
+[class*="appMount"],
+body::before {
+  background-size: 100% 100% !important;        /* Scales image to cover full window */
+  background-position: center center !important;    /* Centers focal point */
+  background-repeat: no-repeat !important;  /* Stops tiling */
+  background-attachment: fixed !important;  /* Keeps image still while scrolling */
+}
