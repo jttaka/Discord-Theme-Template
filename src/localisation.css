@@ -1,0 +1,30 @@
+/* i11n */
+/* Explanation: First, the source string shown for if a language is missing, which should be written in American English and be both clearly worded and avoid using noisy languistic terms. Then, the language-specific strings, listed in the same order as the Discord app lists languages. */
+/* TODO: Split these up per language rather than per string. Editing this is messy... Could even go in a separate file for each language? */
+
+html { --dplus-i11n-notice-avatar-crop-preview: "The colored outline represents the shape of avatar icons while the Discord+ theme is enabled."; }
+/* This message explains the additional shape seen when cropping an avatar. "Avatar" is the word used by Discord for the user's icon across all languages. */
+/*[lang="en-US"] { --dplus-i11n-notice-avatar-crop-preview: "The colored outline shows the avatar shape with the Discord+ theme on."; }*/
+[lang="en-US"] { --dplus-i11n-notice-avatar-crop-preview: "The coloured outline shows the shape of avatars with a Jttaka Template theme enabled."; }
+[lang="en-GB"] { --dplus-i11n-notice-avatar-crop-preview: "The coloured outline shows the shape of avatars with a Jttaka Template theme enabled."; }
+[lang="fi"] { --dplus-i11n-notice-avatar-crop-preview: "Värikäs ulkoviivajuttu näyttää avatarin muodon Jttaka Templaten pohjasen teeman kaa"; }
+
+html { --dplus-i11n-cramped: "There is not enough space for the application to function properly. Increase the size of the window, or zoom out with [Ctrl] & [-]." }
+/* This message appears if the user's app is too small to fit basic UI elements. */
+/*[lang="en-US"] { --dplus-i11n-cramped: "There's not enough space for the app to work. Make the window bigger, or zoom out with [Ctrl] & [-]."; }*/
+[lang="en-US"] { --dplus-i11n-cramped: "There is not enough space for the app to function. Make the window larger, or zoom out with [Ctrl] & [-]."; }
+[lang="en-GB"] { --dplus-i11n-cramped: "There is not enough space for the app to function. Make the window larger, or zoom out with [Ctrl] & [-]."; }
+[lang="fi"] { --dplus-i11n-cramped: "Ei oo tilaa äpin toiminnalle. Läskennä ikkunaa tai tsuumaa ulos kontrollilla ja - näppäimellä"; }
+
+html { --dplus-i11n-cramped-settings-header: "Attention!" }
+/*[lang="en-US"] { --dplus-i11n-cramped-settings-header: "One moment!"; }*/
+[lang="en-US"] { --dplus-i11n-cramped-settings-header: "A moment!"; }
+[lang="en-GB"] { --dplus-i11n-cramped-settings-header: "A moment!"; }
+[lang="fi"] { --dplus-i11n-cramped-settings-header: "Ohotappas poika!"; }
+
+html { --dplus-i11n-cramped-settings-body: "This page requires more horizontal space to show all of its elements properly. Increase the horizontal size of the window, or zoom out with [Ctrl] & [-]."}
+/* This message comes after --dplus-i11n-cramped-settings-header. Informs the user that the current Settings page requires more width. The word "Settings" is not said in the generic version, as "Settings" is called something else in most languages. */
+/*[lang="en-US"] { --dplus-i11n-cramped-settings-body: "This Settings page needs more width to show everything. Make the window wider, or zoom out with [Ctrl] & [-]."; }*/
+[lang="en-US"] { --dplus-i11n-cramped-settings-body: "This Settings page needs more width to display all elements. Make the window wider, or zoom out with [Ctrl] & [-]."; }
+[lang="en-GB"] { --dplus-i11n-cramped-settings-body: "This Settings page needs more width to display all elements. Make the window wider, or zoom out with [Ctrl] & [-]."; }
+[lang="fi"] { --dplus-i11n-cramped-settings-body: "Tää asetus ikkuna tarttee läskennystä kaiken näyttämiseen. Läskennä ikkunaa tai tsuumaa ulos kontrollilla ja - näppäimellä"; }
